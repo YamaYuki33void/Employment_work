@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{53507df3-c250-44d2-9cc8-fe5e55715b91}</ProjectGuid>
+    <RootNamespace>ActionGame110git</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;d3d11.lib;dxgi.lib;DirectXTex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\yuuki\Desktop\ActionGame_1.10_git\ActionGame_1.10_git\Source\System\DirectX\DirectTex\lib\x64\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;d3d11.lib;dxgi.lib;DirectXTex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\yuuki\Desktop\ActionGame_1.10_git\ActionGame_1.10_git\Source\System\DirectX\DirectTex\lib\x64\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Assets\AnimationAssets\AnimationAssets.cpp" />
+    <ClCompile Include="Source\Assets\AnimationAssets\AnimationData.cpp" />
+    <ClCompile Include="Source\Assets\AnimationAssets\KeyFreamData.cpp" />
+    <ClCompile Include="Source\Assets\AnimationMontageAssets\AnimationMontageAssets.cpp" />
+    <ClCompile Include="Source\Assets\AnimationMontageAssets\AnimationMontageData.cpp" />
+    <ClCompile Include="Source\Assets\AnimationMontageAssets\Notify.cpp" />
+    <ClCompile Include="Source\Assets\ModelAssets\MeshData.cpp" />
+    <ClCompile Include="Source\Assets\ModelAssets\ModelAssets.cpp" />
+    <ClCompile Include="Source\Assets\ModelAssets\SkeletalMeshData.cpp" />
+    <ClCompile Include="Source\Assets\ModelAssets\SkeletonData.cpp" />
+    <ClCompile Include="Source\Assets\ModelAssets\StaticMeshData.cpp" />
+    <ClCompile Include="Source\Assets\ShaderAssets\ShaderAssets.cpp" />
+    <ClCompile Include="Source\Assets\ShaderAssets\ShaderData.cpp" />
+    <ClCompile Include="Source\Game\Actor\Actor.cpp" />
+    <ClCompile Include="Source\Game\Actor\CharactorActor.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationControllerComponent\AnimationControllerComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationLerp\AnimationLerp.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationMontageComponent\AnimationMontageComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationStateComponent\AnimationPlayer\AnimationPlayer.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationStateComponent\AnimationStateComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationStateComponent\State.cpp" />
+    <ClCompile Include="Source\Game\Component\AnimationComponent\easing.cpp" />
+    <ClCompile Include="Source\Game\Component\CameraArmComponent\CameraArmComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\CameraComponent\CameraComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\CharactorMoveComponent\CharactorMoveComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\Component.cpp" />
+    <ClCompile Include="Source\Game\Component\GameAblilitySystemComponent\GamePlayAbility.cpp" />
+    <ClCompile Include="Source\Game\Component\GameAblilitySystemComponent\GameplayAbilitySystemComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\ModelComponent\SkeletalMeshComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\ModelComponent\StaticMeshComponent.cpp" />
+    <ClCompile Include="Source\Game\Component\TransformComponent\TransformComponent.cpp" />
+    <ClCompile Include="Source\Game\Scene\GameScene.cpp" />
+    <ClCompile Include="Source\Game\Scene\Scene.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\Actor\FloorActor.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\Actor\PlayerActor.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\AnimationState\PlayerAnimationStateComponent.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\AnimationState\Stete\PlayerStateMove.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\AnimationState\Stete\PlayerSwardStateMove.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Attack_Base.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Rolling.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_AttackA.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_AttackB.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_AttackC.cpp" />
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_DashAttack.cpp" />
+    <ClCompile Include="Source\Gui\ActorHierarchyGuiComponent.cpp" />
+    <ClCompile Include="Source\Gui\CanvasGuiComponent.cpp" />
+    <ClCompile Include="Source\Gui\DetailsPanelGuiComponent.cpp" />
+    <ClCompile Include="Source\Gui\GuiComponent.cpp" />
+    <ClCompile Include="Source\Gui\SceneViewGuiComponent.cpp" />
+    <ClCompile Include="Source\Gui\TreeComponent\AnimationListTreeComponent.cpp" />
+    <ClCompile Include="Source\Gui\TreeComponent\GameAbilityTagsTreeComponent.cpp" />
+    <ClCompile Include="Source\Gui\TreeComponent\TransformTreeComponent.cpp" />
+    <ClCompile Include="Source\Gui\TreeComponent\TreeComponent.cpp" />
+    <ClCompile Include="Source\Manager\ActorManager\ActorManager.cpp" />
+    <ClCompile Include="Source\Manager\ComponentManager\ComponentManager.cpp" />
+    <ClCompile Include="Source\Manager\FbxManager\FbxMyFormatManager.cpp" />
+    <ClCompile Include="Source\Manager\GuiManager\GuiManager.cpp" />
+    <ClCompile Include="Source\Manager\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="Source\System\Application\Application.cpp" />
+    <ClCompile Include="Source\System\Camera\Camera.cpp" />
+    <ClCompile Include="Source\System\DirectX\Direct3D.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectTex\include\DDSTextureLoader.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectTex\include\WICTextureLoader.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectX_RenderTargetTexture.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectX_Simple.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectX_SimpleBuffer.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectX_SimpleMath.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectX_SimpleShader.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectX_WorldTransform.cpp" />
+    <ClCompile Include="Source\System\FpsControl\FpsControl.cpp" />
+    <ClCompile Include="Source\System\Imgui\imgui.cpp" />
+    <ClCompile Include="Source\System\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="Source\System\Imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Source\System\Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Source\System\Imgui\imgui_tables.cpp" />
+    <ClCompile Include="Source\System\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Source\System\Input\DirectInput.cpp" />
+    <ClCompile Include="Source\System\Input\GamePad.cpp" />
+    <ClCompile Include="Source\System\Window\Window.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Game\Component\ComponentList.h" />
+    <ClInclude Include="Source\Game\UniqeClass\UniqeClassList.h" />
+    <ClInclude Include="Source\Gui\GuiComponentList.h" />
+    <ClInclude Include="Source\Manager\GuiManager\GuiManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

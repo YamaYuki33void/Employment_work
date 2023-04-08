@@ -1,0 +1,17 @@
+﻿SkeletonName,AssetsName,ModelPath
+Maria_Skeleton,Idle,AssetsData/Animation/Maria_Idle.dat
+Maria_Skeleton,Walk,AssetsData/Animation/Maria_walk.dat
+Maria_Skeleton,Run,AssetsData/Animation/Maria_Run.dat
+Maria_Skeleton,Rolling,AssetsData/Animation/Maria_Rolling.dat
+Maria_Skeleton,Sward_Attack1,AssetsData/Animation/Maria_Sward_Attack1.dat
+Maria_Skeleton,Sward_Attack2,AssetsData/Animation/Maria_Sward_Attack2.dat
+Maria_Skeleton,Sward_Attack3,AssetsData/Animation/Maria_Sward_Attack3.dat
+Maria_Skeleton,Sward_Attack4,AssetsData/Animation/Maria_Sward_Attack4.dat
+Maria_Skeleton,Sward_Attack5,AssetsData/Animation/Maria_Sward_Attack5.dat
+Maria_Skeleton,Sward_Attack6,AssetsData/Animation/Maria_Sward_Attack6.dat
+Maria_Skeleton,Sward_Attack7,AssetsData/Animation/Maria_Sward_Attack7.dat
+Maria_Skeleton,Sward_Attack8,AssetsData/Animation/Maria_Sward_Attack8.dat
+Maria_Skeleton,Sward_Idle,AssetsData/Animation/Maria_Sward_Idle.dat
+Maria_Skeleton,Sward_Walk,AssetsData/Animation/Maria_Sward_Walk.dat
+Maria_Skeleton,Sward_Run,AssetsData/Animation/Maria_Sward_Run.dat
+Maria_Skeleton,Sward_DashAttack,AssetsData/Animation/Maria_Sward_DashAttack.dat

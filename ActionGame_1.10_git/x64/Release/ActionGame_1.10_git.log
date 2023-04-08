@@ -1,0 +1,99 @@
+﻿  AnimationAssets.cpp
+  AnimationData.cpp
+  KeyFreamData.cpp
+  AnimationMontageAssets.cpp
+  AnimationMontageData.cpp
+  Notify.cpp
+  MeshData.cpp
+  ModelAssets.cpp
+  SkeletalMeshData.cpp
+  SkeletonData.cpp
+  StaticMeshData.cpp
+  ShaderAssets.cpp
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\System\CSVLoader\csv.h(146): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています Source\Assets\ModelAssets\ModelAssets.cpp)
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\System\CSVLoader\csv.h(160,21): warning C4244: 'return': 'std::streamsize' から 'int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています Source\Assets\ModelAssets\ModelAssets.cpp)
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\System\CSVLoader\csv.h(177,28): warning C4244: '=': '__int64' から 'int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています Source\Assets\ModelAssets\ModelAssets.cpp)
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\System\CSVLoader\csv.h(146): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています Source\Assets\AnimationAssets\AnimationAssets.cpp)
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\System\CSVLoader\csv.h(160,21): warning C4244: 'return': 'std::streamsize' から 'int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています Source\Assets\AnimationAssets\AnimationAssets.cpp)
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\System\CSVLoader\csv.h(177,28): warning C4244: '=': '__int64' から 'int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています Source\Assets\AnimationAssets\AnimationAssets.cpp)
+  ShaderData.cpp
+  Actor.cpp
+  CharactorActor.cpp
+  AnimationControllerComponent.cpp
+  AnimationLerp.cpp
+  AnimationMontageComponent.cpp
+  AnimationPlayer.cpp
+  AnimationStateComponent.cpp
+  State.cpp
+  easing.cpp
+  CameraArmComponent.cpp
+  CameraComponent.cpp
+  CharactorMoveComponent.cpp
+  Component.cpp
+  GamePlayAbility.cpp
+  GameplayAbilitySystemComponent.cpp
+  SkeletalMeshComponent.cpp
+  StaticMeshComponent.cpp
+  TransformComponent.cpp
+  GameScene.cpp
+  Scene.cpp
+  FloorActor.cpp
+  PlayerActor.cpp
+  PlayerAnimationStateComponent.cpp
+  PlayerStateMove.cpp
+  PlayerSwardStateMove.cpp
+  GPA_Attack_Base.cpp
+  GPA_Rolling.cpp
+  GPA_Sward_AttackA.cpp
+  GPA_Sward_AttackB.cpp
+  GPA_Sward_AttackC.cpp
+  GPA_Sward_DashAttack.cpp
+  ActorHierarchyGuiComponent.cpp
+  CanvasGuiComponent.cpp
+  DetailsPanelGuiComponent.cpp
+  GuiComponent.cpp
+  SceneViewGuiComponent.cpp
+  AnimationListTreeComponent.cpp
+  GameAbilityTagsTreeComponent.cpp
+  TransformTreeComponent.cpp
+  TreeComponent.cpp
+  ActorManager.cpp
+  ComponentManager.cpp
+  FbxMyFormatManager.cpp
+  GuiManager.cpp
+  SceneManager.cpp
+  Application.cpp
+  Camera.cpp
+  Direct3D.cpp
+  DDSTextureLoader.cpp
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Gui\TreeComponent\AnimationListTreeComponent.cpp(85,17): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+  WICTextureLoader.cpp
+  DirectX_RenderTargetTexture.cpp
+  DirectX_Simple.cpp
+  DirectX_SimpleBuffer.cpp
+  DirectX_SimpleMath.cpp
+  DirectX_SimpleShader.cpp
+  DirectX_WorldTransform.cpp
+  FpsControl.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  DirectInput.cpp
+  GamePad.cpp
+  Window.cpp
+  WinMain.cpp
+  コード生成しています。
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Game\Component\TransformComponent\TransformComponent.cpp(239): warning C4172: ローカル変数またはテンポラリのアドレスを返します
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Game\Component\TransformComponent\TransformComponent.cpp(235): warning C4172: ローカル変数またはテンポラリのアドレスを返します
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Game\Component\TransformComponent\TransformComponent.cpp(227): warning C4172: ローカル変数またはテンポラリのアドレスを返します
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Game\Component\TransformComponent\TransformComponent.cpp(231): warning C4172: ローカル変数またはテンポラリのアドレスを返します
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Game\Component\TransformComponent\TransformComponent.cpp(243): warning C4172: ローカル変数またはテンポラリのアドレスを返します
+C:\Users\yuuki\Desktop\Employment_work\ActionGame_1.10_git\Source\Assets\ModelAssets\SkeletonData.cpp(20): warning C4172: ローカル変数またはテンポラリのアドレスを返します
+  8276 of 8317 functions (99.5%) were compiled, the rest were copied from previous compilation.
+    51 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  ActionGame_1.10_git.vcxproj -> C:\Users\yuuki\Desktop\Employment_work\x64\Release\ActionGame_1.10_git.exe

@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1774b4c8-f8d9-4424-a6aa-3fe051b22359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{c275922b-142a-42c2-bdb6-2796d0641c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Window">
+      <UniqueIdentifier>{fc71b1ae-c214-40f4-b662-71f501d46670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\FpsControl">
+      <UniqueIdentifier>{96b9e7e2-1da1-4c27-9918-ffe6575c1131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\DirectX">
+      <UniqueIdentifier>{82853d07-4d4b-458a-aa9f-52edf6a82ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\DirectX\D3D">
+      <UniqueIdentifier>{ae67d0c2-cc19-42e8-9347-5c7883a7552f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Aplication">
+      <UniqueIdentifier>{efd43003-631d-45ee-b590-fd0e0381ddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\DirectX\D3DSimple">
+      <UniqueIdentifier>{7c8a9c54-01de-40d4-99f3-f97ea91560be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\DirectX\D3DTex">
+      <UniqueIdentifier>{5d8c2f45-5b1e-4ac8-9104-bb7db89c70f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets">
+      <UniqueIdentifier>{7047a698-4ad6-4af9-b5a6-763de92d3cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\ModelData">
+      <UniqueIdentifier>{c2047c01-6b6f-46cc-9fc8-af67913a4ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\ModelData\SkeletalMeshData">
+      <UniqueIdentifier>{52c98dc1-a293-4fa3-8eb3-d0445bab5800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager">
+      <UniqueIdentifier>{28b29e5a-b99a-45fe-93c5-36062b7fd1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager\FbxManager">
+      <UniqueIdentifier>{2f7dfa6e-0c91-45f8-925b-2394bde6756f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Input">
+      <UniqueIdentifier>{be14b171-963f-4a95-bafb-3becff388ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\ModelData\StaticMeshData">
+      <UniqueIdentifier>{e2978538-9528-45dd-b4e7-9fac63f875df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\ShaderData">
+      <UniqueIdentifier>{17209e73-d8b7-424f-9f9d-32debf2e05fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\AnimationData">
+      <UniqueIdentifier>{ec2b0cf7-22c4-4a65-be59-01372acd1328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager\SceneManager">
+      <UniqueIdentifier>{c35a5e53-07da-4436-a71b-8a4bee718e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{a18eae5f-0f1a-4129-8e4a-48c94baeeb1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Scene">
+      <UniqueIdentifier>{ca5a7641-8b4b-48b6-b961-3ddfb550472c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Actor">
+      <UniqueIdentifier>{5ff9e07c-1af2-492c-b61e-e1d316748eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager\ActorManager">
+      <UniqueIdentifier>{5b458e7f-262a-49a9-aca3-76db4c071f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Camera">
+      <UniqueIdentifier>{b3bfaa97-9e44-4188-8d58-9858a1d003a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager\ComponentManager">
+      <UniqueIdentifier>{b6085f1c-34a3-4ec3-9bc3-a1c5089811b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component">
+      <UniqueIdentifier>{5f1c065d-b96c-468d-8e67-bea8a0f229bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\BaseComponent">
+      <UniqueIdentifier>{d96736bd-25f6-494b-b2a7-9c50efa6bb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent">
+      <UniqueIdentifier>{abd7903e-567b-43d2-9ee2-c3e07b0c59ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\ObjectComponent">
+      <UniqueIdentifier>{d8fbdcd4-7623-45da-b0dc-0b29e9a7a875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\ObjectComponent\ModelComponent">
+      <UniqueIdentifier>{afcd0f44-646e-4b79-b2eb-59c8d3bc8a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\ObjectComponent\ModelComponent\StaticMeshComponent">
+      <UniqueIdentifier>{32b06d7d-87d3-47af-b5d9-77c243f8092c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\ObjectComponent\ModelComponent\SkeletalMeshComponent">
+      <UniqueIdentifier>{7a51aa9d-ccfd-447e-b8b6-8df732bf7ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\TransformComponent">
+      <UniqueIdentifier>{76aa4510-db46-49df-9d3a-e7a219606351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\CharactorMoveComponent">
+      <UniqueIdentifier>{50c8cbae-c129-4db5-8339-397f63f091bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass">
+      <UniqueIdentifier>{6e1068e5-7649-42fc-83f6-2c41d761efbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\Actor">
+      <UniqueIdentifier>{aa4138e6-eae5-4dab-a82a-4aaa873f0879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\ObjectComponent\CameraComponent">
+      <UniqueIdentifier>{c7183e56-66ef-4d32-98e5-fc412191efe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\ObjectComponent\CameraArmComponent">
+      <UniqueIdentifier>{98064936-5651-4c7c-808b-7358094c0957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent">
+      <UniqueIdentifier>{b0e3a04f-9431-4e6f-8301-15383dd3e0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\AnimationControllerComponent">
+      <UniqueIdentifier>{30b097b7-9c0e-4015-9a50-674138b819f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\AnimationStateComponent">
+      <UniqueIdentifier>{5034d140-a306-4bda-be5a-6190810557a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\AnimationStateComponent\BaseState">
+      <UniqueIdentifier>{cb9dea62-9536-443a-a5b7-26e1bc7c5213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\AnimState">
+      <UniqueIdentifier>{f1d9ec90-e829-4ee2-ae4d-df340e083523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\AnimState\State">
+      <UniqueIdentifier>{3a5db0a1-415e-4d17-9df9-4eb5ff958195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\AnimationPlay">
+      <UniqueIdentifier>{1d0314d7-6a0a-4b79-8e42-b2688a02be9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\AnimationLerp">
+      <UniqueIdentifier>{0557cb93-636b-40a2-8be1-8fc1ead4aedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\AnimationMontageData">
+      <UniqueIdentifier>{44668ad8-d552-47b9-8029-ee1b8f4c8f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\AnimationMontageData\Notify">
+      <UniqueIdentifier>{0a9394f9-ff7a-4345-95cd-7dc7b0cac16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\AnimationMontageComponent">
+      <UniqueIdentifier>{a2d32195-3317-4752-ad7c-15faf4e7f049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\AnimationComponent\Animationeaseing">
+      <UniqueIdentifier>{ae7beeb6-07b8-43a7-9c27-00ae37b87795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\GameAbilitySystemComponent">
+      <UniqueIdentifier>{3f8ef667-8702-4493-9013-8c19dd14bdb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Component\FancComponent\GameAbilitySystemComponent\GamePlayAbility">
+      <UniqueIdentifier>{dc74879f-eff8-46d3-9a9b-a46b3b2e4f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\GameplayAbility">
+      <UniqueIdentifier>{26a71d02-7ff4-4ada-be54-b2be2236e71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\GameplayAbility\Motion">
+      <UniqueIdentifier>{4bc6d9d5-046e-4047-8d00-22cb95087052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\GameplayAbility\Attack">
+      <UniqueIdentifier>{f3f2fe4b-437b-4c90-9ae9-07f76d4df978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UniqeClass\GameplayAbility\Attack\GPA_Attack_Base">
+      <UniqueIdentifier>{97e8aee8-05cc-409d-a482-dd22fcb97bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager\GuiManager">
+      <UniqueIdentifier>{510e59c1-cde5-46c6-aca2-cb4ebee54b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\ImGui">
+      <UniqueIdentifier>{d82c7a5d-f824-41f0-99cf-df13c699a0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui">
+      <UniqueIdentifier>{71e830be-31b2-4442-8e91-2941a4760574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\CanvasGuiComponent">
+      <UniqueIdentifier>{19e63225-30cb-402a-9ed8-c150e100a147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\BaseGuiComponent">
+      <UniqueIdentifier>{71dca2f7-bb73-4882-9099-4c9b6c30620d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\SceneViewGuiComponent">
+      <UniqueIdentifier>{8010bd5f-abdc-4b6d-8059-0c31f08bd7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\ActorHierarchyGuiComponent">
+      <UniqueIdentifier>{20e06c14-fd49-4bf8-acad-8a00cf0b364f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\DetailsPanelGuiComponent">
+      <UniqueIdentifier>{60c41d0a-0786-4a0a-99e7-3a2b358d69e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\DetailsPanelGuiComponent\BaseTreeComponent">
+      <UniqueIdentifier>{6bbb3c7a-62e1-41b7-ad37-daf24659b638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\DetailsPanelGuiComponent\GameAbilityTagsTreeComponent">
+      <UniqueIdentifier>{83dac726-dc9c-479f-9f80-fcf000e11683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\DetailsPanelGuiComponent\TransformTreeComponent">
+      <UniqueIdentifier>{661e416a-41bb-4c09-a397-dcf462583d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gui\DetailsPanelGuiComponent\AnimationTimeLineTreeComponent">
+      <UniqueIdentifier>{023eb857-7d47-46fb-b0fc-9e0284af2890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\System\Window\Window.cpp">
+      <Filter>Source\System\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\Direct3D.cpp">
+      <Filter>Source\System\DirectX\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Application\Application.cpp">
+      <Filter>Source\System\Aplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\FpsControl\FpsControl.cpp">
+      <Filter>Source\System\FpsControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectX_Simple.cpp">
+      <Filter>Source\System\DirectX\D3DSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Source\System\DirectX\DirectTex\include\WICTextureLoader.cpp">
+      <Filter>Source\System\DirectX\D3DTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectTex\include\DDSTextureLoader.cpp">
+      <Filter>Source\System\DirectX\D3DTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectX_SimpleMath.cpp">
+      <Filter>Source\System\DirectX\D3DSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectX_SimpleBuffer.cpp">
+      <Filter>Source\System\DirectX\D3DSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectX_SimpleShader.cpp">
+      <Filter>Source\System\DirectX\D3DSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectX_WorldTransform.cpp">
+      <Filter>Source\System\DirectX\D3DSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager\FbxManager\FbxMyFormatManager.cpp">
+      <Filter>Source\Manager\FbxManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Input\DirectInput.cpp">
+      <Filter>Source\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Input\GamePad.cpp">
+      <Filter>Source\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ShaderAssets\ShaderAssets.cpp">
+      <Filter>Source\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ShaderAssets\ShaderData.cpp">
+      <Filter>Source\Assets\ShaderData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ModelAssets\MeshData.cpp">
+      <Filter>Source\Assets\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ModelAssets\ModelAssets.cpp">
+      <Filter>Source\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ModelAssets\SkeletalMeshData.cpp">
+      <Filter>Source\Assets\ModelData\SkeletalMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ModelAssets\StaticMeshData.cpp">
+      <Filter>Source\Assets\ModelData\StaticMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\ModelAssets\SkeletonData.cpp">
+      <Filter>Source\Assets\ModelData\SkeletalMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\AnimationAssets\AnimationAssets.cpp">
+      <Filter>Source\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\AnimationAssets\AnimationData.cpp">
+      <Filter>Source\Assets\AnimationData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\AnimationAssets\KeyFreamData.cpp">
+      <Filter>Source\Assets\AnimationData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager\SceneManager\SceneManager.cpp">
+      <Filter>Source\Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Scene\GameScene.cpp">
+      <Filter>Source\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Scene\Scene.cpp">
+      <Filter>Source\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Actor\Actor.cpp">
+      <Filter>Source\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager\ActorManager\ActorManager.cpp">
+      <Filter>Source\Manager\ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Camera\Camera.cpp">
+      <Filter>Source\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager\ComponentManager\ComponentManager.cpp">
+      <Filter>Source\Manager\ComponentManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\Component.cpp">
+      <Filter>Source\Game\Component\BaseComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\ModelComponent\SkeletalMeshComponent.cpp">
+      <Filter>Source\Game\Component\ObjectComponent\ModelComponent\SkeletalMeshComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\ModelComponent\StaticMeshComponent.cpp">
+      <Filter>Source\Game\Component\ObjectComponent\ModelComponent\StaticMeshComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\CharactorMoveComponent\CharactorMoveComponent.cpp">
+      <Filter>Source\Game\Component\FancComponent\CharactorMoveComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Actor\CharactorActor.cpp">
+      <Filter>Source\Game\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\TransformComponent\TransformComponent.cpp">
+      <Filter>Source\Game\Component\FancComponent\TransformComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\Actor\PlayerActor.cpp">
+      <Filter>Source\Game\UniqeClass\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\CameraComponent\CameraComponent.cpp">
+      <Filter>Source\Game\Component\ObjectComponent\CameraComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\CameraArmComponent\CameraArmComponent.cpp">
+      <Filter>Source\Game\Component\ObjectComponent\CameraArmComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\Actor\FloorActor.cpp">
+      <Filter>Source\Game\UniqeClass\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationControllerComponent\AnimationControllerComponent.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\AnimationControllerComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationStateComponent\AnimationStateComponent.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\AnimationStateComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationStateComponent\State.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\AnimationStateComponent\BaseState</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\AnimationState\PlayerAnimationStateComponent.cpp">
+      <Filter>Source\Game\UniqeClass\AnimState</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\AnimationState\Stete\PlayerStateMove.cpp">
+      <Filter>Source\Game\UniqeClass\AnimState\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationStateComponent\AnimationPlayer\AnimationPlayer.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\AnimationPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationLerp\AnimationLerp.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\AnimationLerp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\AnimationMontageAssets\Notify.cpp">
+      <Filter>Source\Assets\AnimationMontageData\Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\AnimationMontageAssets\AnimationMontageData.cpp">
+      <Filter>Source\Assets\AnimationMontageData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assets\AnimationMontageAssets\AnimationMontageAssets.cpp">
+      <Filter>Source\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\AnimationMontageComponent\AnimationMontageComponent.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\AnimationMontageComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\AnimationComponent\easing.cpp">
+      <Filter>Source\Game\Component\FancComponent\AnimationComponent\Animationeaseing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\GameAblilitySystemComponent\GamePlayAbility.cpp">
+      <Filter>Source\Game\Component\FancComponent\GameAbilitySystemComponent\GamePlayAbility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component\GameAblilitySystemComponent\GameplayAbilitySystemComponent.cpp">
+      <Filter>Source\Game\Component\FancComponent\GameAbilitySystemComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Rolling.cpp">
+      <Filter>Source\Game\UniqeClass\GameplayAbility\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Attack_Base.cpp">
+      <Filter>Source\Game\UniqeClass\GameplayAbility\Attack\GPA_Attack_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\AnimationState\Stete\PlayerSwardStateMove.cpp">
+      <Filter>Source\Game\UniqeClass\AnimState\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_AttackA.cpp">
+      <Filter>Source\Game\UniqeClass\GameplayAbility\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_AttackB.cpp">
+      <Filter>Source\Game\UniqeClass\GameplayAbility\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_AttackC.cpp">
+      <Filter>Source\Game\UniqeClass\GameplayAbility\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UniqeClass\GamePlayAbility\GPA_Sward_DashAttack.cpp">
+      <Filter>Source\Game\UniqeClass\GameplayAbility\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Manager\GuiManager\GuiManager.cpp">
+      <Filter>Source\Manager\GuiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Imgui\imgui_widgets.cpp">
+      <Filter>Source\System\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Imgui\imgui.cpp">
+      <Filter>Source\System\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Imgui\imgui_draw.cpp">
+      <Filter>Source\System\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Imgui\imgui_impl_dx11.cpp">
+      <Filter>Source\System\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Imgui\imgui_impl_win32.cpp">
+      <Filter>Source\System\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Imgui\imgui_tables.cpp">
+      <Filter>Source\System\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\CanvasGuiComponent.cpp">
+      <Filter>Source\Gui\CanvasGuiComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\GuiComponent.cpp">
+      <Filter>Source\Gui\BaseGuiComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\SceneViewGuiComponent.cpp">
+      <Filter>Source\Gui\SceneViewGuiComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\ActorHierarchyGuiComponent.cpp">
+      <Filter>Source\Gui\ActorHierarchyGuiComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\DetailsPanelGuiComponent.cpp">
+      <Filter>Source\Gui\DetailsPanelGuiComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\TreeComponent\TreeComponent.cpp">
+      <Filter>Source\Gui\DetailsPanelGuiComponent\BaseTreeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\TreeComponent\GameAbilityTagsTreeComponent.cpp">
+      <Filter>Source\Gui\DetailsPanelGuiComponent\GameAbilityTagsTreeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\TreeComponent\TransformTreeComponent.cpp">
+      <Filter>Source\Gui\DetailsPanelGuiComponent\TransformTreeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui\TreeComponent\AnimationListTreeComponent.cpp">
+      <Filter>Source\Gui\DetailsPanelGuiComponent\AnimationTimeLineTreeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\DirectX\DirectX_RenderTargetTexture.cpp">
+      <Filter>Source\System\DirectX\D3DSimple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Game\Component\ComponentList.h">
+      <Filter>Source\Game\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\UniqeClass\UniqeClassList.h">
+      <Filter>Source\Game\UniqeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manager\GuiManager\GuiManager.h">
+      <Filter>Source\Manager\GuiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gui\GuiComponentList.h">
+      <Filter>Source\Gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
